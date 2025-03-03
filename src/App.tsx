@@ -1,13 +1,13 @@
 import React from "react";
-import { Switch, Route } from "wouter";
+import { Router, Route } from "wouter";
 import ProposalPage from "./pages/ProposalPage";
 import SuccessPage from "./pages/SuccessPage";
 
 export default function App() {
   return (
-    <Switch>
+    <Router base="/ValentineProposal">
       <Route path="/" component={ProposalPage} />
       <Route path="/success" component={SuccessPage} />
-    </Switch>
+    </Router>
   );
 }
