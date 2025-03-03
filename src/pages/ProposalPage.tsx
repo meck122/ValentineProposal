@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "wouter";
 // import hearts from "../assets/hearts.svg";
-import hearts from "../assets/silly.jpg"
+import hearts from "../assets/silly.jpg";
+
 
 export default function ProposalPage() {
   const [, setLocation] = useLocation();

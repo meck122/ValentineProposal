@@ -1,6 +1,6 @@
 import Confetti from "react-confetti";
 // import valentineImage from "../assets/valentine.svg";
-import us from "../assets/us.png";
+import us from "../assets/us.jpg";
 
 export default function SuccessPage() {
   return (
