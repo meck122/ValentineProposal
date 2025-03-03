@@ -1,3 +1,4 @@
+import React from "react";
 import Confetti from "react-confetti";
 // import valentineImage from "../assets/valentine.svg";
 import us from "../assets/us.jpg";

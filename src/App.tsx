@@ -1,3 +1,4 @@
+import React from "react";
 import { Switch, Route } from "wouter";
 import ProposalPage from "./pages/ProposalPage";
 import SuccessPage from "./pages/SuccessPage";
